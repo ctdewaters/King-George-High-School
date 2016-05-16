@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10115" systemVersion="15E64a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2016 Pillo LLC All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="0.0" y="439" width="480" height="21"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="DPQ-vM-pSi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pilloLogo" translatesAutoresizingMaskIntoConstraints="NO" id="125-oI-wd5">
+                    <rect key="frame" x="0.0" y="373" width="480" height="66"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="x2M-ma-f5Z"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kglogo" translatesAutoresizingMaskIntoConstraints="NO" id="bxK-NC-Qb8">
+                    <rect key="frame" x="144" y="152" width="192" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="175" id="KFg-0f-kak"/>
+                        <constraint firstAttribute="width" constant="192" id="weL-xs-R9V"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bxK-NC-Qb8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="152" id="DDs-AF-qT6"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="125-oI-wd5" secondAttribute="bottom" id="DFT-Ha-MP5"/>
+                <constraint firstItem="125-oI-wd5" firstAttribute="leading" secondItem="8ie-xW-0ye" secondAttribute="leading" id="UY8-qO-kmX"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="ixh-Ie-A5F"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="slH-ew-D3g"/>
+                <constraint firstItem="bxK-NC-Qb8" firstAttribute="centerX" secondItem="125-oI-wd5" secondAttribute="centerX" id="u98-tc-53M"/>
+                <constraint firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" id="uDf-Id-0Vk"/>
+                <constraint firstItem="125-oI-wd5" firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" id="w8u-bd-emJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kglogo" width="401" height="401"/>
+        <image name="pilloLogo" width="2100" height="1500"/>
+    </resources>
+</document>
