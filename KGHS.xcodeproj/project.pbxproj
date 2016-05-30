@@ -121,6 +121,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B801DE951CFA3AFE00E6D3BA /* KGHS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KGHS.entitlements; sourceTree = "<group>"; };
 		B80411391B2D8AF1003A129F /* SchoolTweets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTweets.swift; sourceTree = "<group>"; };
 		B8104EF81A86B42300009151 /* KGHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8104EFC1A86B42300009151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -207,7 +208,6 @@
 		B8E2B94E1AA34D9B00FEB69A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		B8E7F0C21ADFE18F005D3992 /* KGHS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KGHS.xcdatamodel; sourceTree = "<group>"; };
 		B8E7F0CD1AE06A48005D3992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8E7F0EA1AE06B4A005D3992 /* KGHS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KGHS.entitlements; sourceTree = "<group>"; };
 		B8EF21B41A86B47100842B2F /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewCell.swift; path = ../EventTableViewCell.swift; sourceTree = "<group>"; };
 		B8EF21BF1A86B4E400842B2F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B8EF21C11A86B4EB00842B2F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -281,8 +281,8 @@
 		B8104EFA1A86B42300009151 /* KGHS */ = {
 			isa = PBXGroup;
 			children = (
+				B801DE951CFA3AFE00E6D3BA /* KGHS.entitlements */,
 				B843333B1B2C7ECD00920447 /* CalendarWiz_iCal.php.ics */,
-				B8E7F0EA1AE06B4A005D3992 /* KGHS.entitlements */,
 				B8C0CAB01B7A45600070FE64 /* AppDelegate.swift */,
 				B8C0CAAC1B7A450A0070FE64 /* EventsTableViewController.swift */,
 				B8C0CAAE1B7A45390070FE64 /* DetailViewController.swift */,
@@ -522,7 +522,7 @@
 				TargetAttributes = {
 					B8104EF71A86B42300009151 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = M39QR8SH2E;
+						DevelopmentTeam = AP48SCT3J2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -732,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -768,7 +768,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -795,7 +795,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDWApps.KGHS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5306856c-a965-455b-8f5d-2f5168419b55";
 				SWIFT_OBJC_BRIDGING_HEADER = ./KGHS/Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -823,7 +823,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDWApps.KGHS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5306856c-a965-455b-8f5d-2f5168419b55";
 				SWIFT_OBJC_BRIDGING_HEADER = ./KGHS/Header.h;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7";

@@ -132,7 +132,7 @@ class StaffTableViewController: UITableViewController, UIViewControllerPreviewin
     }
     
     func getStaff(completion: (()->Void)) {
-        let url = NSURL(string: "http://www.pillocompany.com/kghs/getStaff.php")!
+        let url = NSURL(string: "http://www.bounceee.com/kghs/getStaff.php")!
         
         returnedJSONFromURL(url, completion: completion)
         

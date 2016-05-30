@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FDD30D89A1A3805FB11147098D76A23EE70A256A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FDD30D89A1A3805FB11147098D76A23EE70A256A" : 0,
+    "B6CA6EB1266E381117492972DB7A1036E0807E38" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB96F50A-8935-4A40-923D-0F206CCEC8F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FDD30D89A1A3805FB11147098D76A23EE70A256A" : "King%20George%20High%20School\/",
+    "B6CA6EB1266E381117492972DB7A1036E0807E38" : "KGHS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KGHS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KGHS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iInnovateDesign\/KGHS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6CA6EB1266E381117492972DB7A1036E0807E38"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ctdewaters\/King-George-High-School.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDD30D89A1A3805FB11147098D76A23EE70A256A"
+    }
+  ]
+}

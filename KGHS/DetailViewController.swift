@@ -2,8 +2,8 @@
 //  DetailViewController.swift
 //  KGHS
 //
-//  Created by Collin DeWaters and Taylor Courtney on 2/5/15.
-//  Copyright (c) 2015 Pillo. All rights reserved.
+//  Created by Collin DeWaters on 2/5/15.
+//  Copyright (c) 2015 Collin DeWaters. All rights reserved.
 //
 
 import UIKit

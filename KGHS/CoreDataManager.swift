@@ -30,7 +30,7 @@ public class DataManager: NSObject {
         // Create the coordinator and store
         
         
-        let containerPath = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.KGHS.Docs")?.path
+        let containerPath = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.KGHS.Stuff")?.path
         let sqlitePath = NSString(format: "%@/%@", containerPath!, "KGHS")
         let url = NSURL(fileURLWithPath: sqlitePath as String)
         

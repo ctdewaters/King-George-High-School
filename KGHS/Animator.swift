@@ -3,7 +3,7 @@
 //  KGHS
 //
 //  Created by Collin DeWaters on 6/22/15.
-//  Copyright © 2015 Pillo. All rights reserved.
+//  Copyright © 2015 Collin DeWaters. All rights reserved.
 //
 
 import UIKit

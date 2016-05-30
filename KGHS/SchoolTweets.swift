@@ -206,9 +206,8 @@ class TwitterAccountSelector: UIView {
     }
     
     func getTwitterAccounts(completion: (()->Void)) {
-        let url = NSURL(string: "http://www.pillocompany.com/kghs/getTwitterAccounts.php")!
+        let url = NSURL(string: "http://www.bounceee.com/kghs/getTwitterAccounts.php")!
         returnedJSONFromURL(url, completion: completion)
-        
     }
     
     func returnedJSONFromURL(url: NSURL, completion: (()->Void)) {
